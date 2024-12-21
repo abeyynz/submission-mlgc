@@ -1,0 +1,23 @@
+{
+  "name": "submission-mlgc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^7.11.0",
+    "@hono/node-server": "^1.13.7",
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "dotenv": "^16.4.7",
+    "hono": "^4.6.14"
+  }
+}
